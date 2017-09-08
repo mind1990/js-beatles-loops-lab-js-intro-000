@@ -11,7 +11,7 @@ function theBeatlesPlay(musicians, instruments) {
 function johnLennonFacts(array) {
   var array = new Array();
   for (var i = 0; i < array.length; i++) {
-    array.push('${array[i]}')
+    array.push('${array}')
   }
   return array
 }
